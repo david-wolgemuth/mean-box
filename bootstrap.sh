@@ -23,6 +23,7 @@ apt-get install -y mongodb-org
 print_description "Updating Node"
 npm cache clean -f
 npm install -g n
+npm install -g nodemon
 n stable
 
 cp /usr/bin/nodejs /usr/bin/node
