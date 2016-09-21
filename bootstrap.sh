@@ -1,5 +1,5 @@
-
-function print_description { printf "\n\n\n$1\n\n\n\n" }
+#!/bin/sh
+function print_description { printf "\n\n\n$1\n\n\n\n"; }
 
 print_description "Updating Package Information"
 apt-get -y update
