@@ -8,7 +8,7 @@ print_description "Installing Git"
 apt-get -y install git
 
 print_description "Installing Dependencies"
-apt-get -y install -y build-essential openssl libssl-dev pkg-config
+apt-get -y install build-essential openssl libssl-dev pkg-config
 
 print_description "Installing Node"
 apt-get -y install node
